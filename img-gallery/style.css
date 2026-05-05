@@ -219,3 +219,13 @@
     right: 15px;
   }
 }
+@media (max-width: 480px) {
+  .buttons {
+    justify-content: center;
+  }
+
+  .buttons button {
+    flex: 1 1 40%;
+    text-align: center;
+  }
+}
